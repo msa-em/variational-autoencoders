@@ -1,0 +1,183 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: ferro_vae_tutorial
+  title: Variational Autoencoder Toolkit
+  description: A minimal repository to be used as quickstart for the Elemental Microscopy journal.
+  short_title: VAE Quickstart
+  keywords:
+    - Microscopy
+    - AMchine Learning
+    - Crystalline Solids
+    - Variational Autoencoder
+  github: https://github.com/Kamyar-V2/VAEs
+  #jupyter: true
+  #  jupyter:
+  #    binder:
+  #      url: https://y2j74k9mn0bz.curvenote.dev/services/binder/
+  #      repo: msa-em/change-this-to-repo-name
+  jupyter:
+    server:
+      url: 'http://localhost:8888'
+      token: '512ac78f14e1141db1fac17e8b4099c1e5bc7d589518b38c'
+  open_access: true
+  license: CC-BY-4.0
+  banner: banner.png
+  thumbnail: thumbnail.webp
+  date: 2024-11-27
+  history:
+    submitted: 2023-11-27
+    published: 2024-11-27
+  requirements:
+    - 'environment.yml'
+  resources:
+    - 'notebooks/**/*'
+  references:
+    mystmd: https://mystmd.org/guide
+  exports:
+    - format: meca
+  exclude:
+    - README.md
+  authors:
+    - id: kbarakat
+      name: Kamyar Barakati
+      corresponding: true
+      email: kbarakat@vols.utk.edu
+      orcid: 0000-0003-3487-6652
+      affiliations:
+        - id: UTK
+          department: Department of Materials Science and Engineering, 
+          institution: University of Tennessee
+          address: Knoxville, TN 37996
+          ror: 020f3ap87
+      roles:
+        - Conceptualization
+        - Visualization
+        - Software
+        - Validation
+        - Writing - original draft
+
+    - id: Cnelson
+      name: Chris Nelson
+      email: nelsonct@ornl.gov
+      orcid: 0000-0001-7892-8907
+      affiliations:
+        - id: ORNL
+          department: Center for Nanophase Materials Sciences 
+          institution: Oak Ridge National Laboratory
+          address: Oak Ridge, TN 37831
+          ror: 0526p1y61
+      roles:
+        - Validation
+        - Visualization
+
+    - id: Annam
+      name: Anna N. Morozovska
+      email: anna.n.morozovska@gmail.com
+      orcid: 0000-0002-8505-458X
+      affiliations:
+        - id: UKraineNA
+          department:  Institute of Physics
+          institution: National Academy of Sciences of Ukraine
+          address: 46, pr. Nauky, 03028 Kyiv, Ukraine
+          ror: 00je4t102
+      roles:
+        - Validation
+        - Visualization
+
+    - id: MaxA
+      name: Maxim A. Ziatdinov
+      email: maxim.ziatdinov@pnnl.gov
+      orcid: 0000-0003-2570-4592
+      affiliations:
+        - id: PNNL
+          department: Pacific Northwest National Laboratory
+          institution: Pacific Northwest National Laboratory
+          address: Richland, WA 99354
+          ror: 04rc0xn13
+      roles:
+        - Validation
+        - Visualization
+
+    - id: EAE
+      name: Eugene A. Eliseev
+      email: eugene.a.eliseev@gmail.com
+      orcid: 0000-0002-2851-6821
+      affiliations:
+        - id: UKraineFr
+          department: Frantsevich Institute for Problems in Materials Science
+          institution: National Academy of Sciences of Ukraine
+          address: 3, str. Omeliana Pritsaka, 03142 Kyiv, Ukraine
+          ror: 010jn4k46
+      roles:
+        - Validation
+        - Visualization
+
+
+    - id: XIZ
+      name: Xiaohang Zhang
+      email: xhzhang@umd.edu
+      orcid: 
+      affiliations:
+        - id: UMCP
+          department: Department of Materials Science and Engineering
+          institution: University of Maryland
+          address: College Park, MD 20742
+          ror: 047s2c258
+      roles:
+        - Validation
+        - Visualization
+
+    - id: ITA
+      name: Ichiro Takeuchi
+      email: takeuchi@umd.edu
+      orcid: 0000-0003-2625-0553
+      affiliations:
+        - id: UMCP
+          department: Department of Materials Science and Engineering
+          institution: University of Maryland
+          address: College Park, MD 20742
+          ror: 047s2c258
+      roles:
+        - Validation
+        - Visualization
+
+
+    - id: svk
+      name: Sergei V. Kalinin
+      email: sergei2@utk.edu
+      orcid: 0000-0001-5354-6152
+      affiliations:
+        - id: UTK
+          department: Miller Institute for Basic Research in Science
+          institution: University of California, Berkeley
+          address: 468 Donner Lab, Berkeley, CA, USA, 94720
+          ror: 01an7q238
+      roles:
+        - Conceptualization
+        - Validation
+        - Visualization
+        - Funding acquisition
+        - Project administration
+        - Supervision
+
+  funding:
+    - statement: We thank the Microscopy Society of America for sponsoring this project.
+      recipients:
+        - cophus
+        - garnavides
+    - statement: Work at the Molecular Foundry was supported by the Office of Science, Office of Basic Energy Sciences, of the U.S. Department of Energy under Contract No. DE-AC02-05CH11231.
+      id: DE-AC02-05CH11231
+      sources:
+        - name: Office of Science, Office of Basic Energy Sciences, of the U.S. Department of Energy
+      recipients:
+        - cophus
+  abbreviations:
+    4D-STEM: four dimensional scanning transmission electron microscopy
+    FFT: fast Fourier transform
+    HAADF: high angle annular dark field
+    HRTEM: high resolution transmission electron microscopy
+    M&M: Microscopy and Microanalysis
+    STEM: scanning transmission electron microscopy
+site:
+  template: book-theme

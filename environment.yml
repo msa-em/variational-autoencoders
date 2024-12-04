@@ -1,0 +1,19 @@
+name: ferro_VAE
+channels:
+  - conda-forge
+dependencies:
+  # add your dependencies below
+  # pinning versions if necessary 
+  - python
+  - numpy
+  - scipy
+  - h5py
+
+  # additionally, include these deps
+  - ipywidgets
+  - matplotlib
+  - ipympl
+  - jupyterlab
+  - jupyterlab-myst
+  - 'nodejs>=20,<21'
+  - mystmd
