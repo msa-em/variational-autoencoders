@@ -8,6 +8,6 @@ Note that VAEs will yield latent vectors and (optionally) translation vector and
 
 :::{figure} #app:example_widget
 :name: fig_example_widget
-:placeholder: ./figures/example_widget_placeholder.png
+:placeholder: ./figures/VAE_.png
 Example widget.
 :::

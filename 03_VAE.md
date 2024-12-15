@@ -12,8 +12,22 @@ Note that VAEs will yield latent vectors and (optionally) translation vector and
 Example widget.
 :::
 
-:::{figure} #app:example_test
-:name: fig_example_widget
-:placeholder: ./figures/example_widget_placeholder_01.png
-Exampel test_1.
+
+
+jfjjjff
+
+
+:::{figure} #app:VAE_figure1
+:name: VAE_manifold_1
+:placeholder: ./figures/VAE_figure1_placeholder.png
+VAE_manifold.
+:::
+
+
+ffffff
+
+:::{figure} #app:VAE_figure_2
+:name: Latent_distributions
+:placeholder: ./figures/VAE_figure_2_placeholder.png
+Latent_distributions.
 :::

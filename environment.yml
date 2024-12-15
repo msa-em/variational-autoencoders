@@ -1,15 +1,37 @@
+# name: ferro_VAE
+# channels:
+#   - conda-forge
+# dependencies:
+#   # add your dependencies below
+#   # pinning versions if necessary 
+#   - python
+#   - numpy
+#   - scipy
+#   - h5py
+  
+
+#   # additionally, include these deps
+  
+#   - ipywidgets
+#   - matplotlib
+#   - ipympl
+#   - jupyterlab
+#   - jupyterlab-myst
+#   - 'nodejs>=20,<21'
+#   - mystmd
+#   - pip
+#   - pip:
+#       - git+https://github.com/pycroscopy/atomai
+
+
 name: ferro_VAE
 channels:
   - conda-forge
 dependencies:
-  # add your dependencies below
-  # pinning versions if necessary 
   - python
   - numpy
   - scipy
   - h5py
-
-  # additionally, include these deps
   - ipywidgets
   - matplotlib
   - ipympl
@@ -17,3 +39,12 @@ dependencies:
   - jupyterlab-myst
   - 'nodejs>=20,<21'
   - mystmd
+  - pip
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pip:
+      - git+https://github.com/pycroscopy/atomai
+      - git+https://github.com/ziatdinovmax/pyroVED@main
+
+
