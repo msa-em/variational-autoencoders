@@ -4,10 +4,30 @@ title: Conditional VAE
 
 
 
-Note that VAEs will yield latent vectors and (optionally) translation vector and rotation as outputs, and can be configured to use class as input.
+However, the previous analysis presented a significant limitation: it assumed a shared latent representation for both A-site and B-site cations, despite their inherently distinct physical and chemical roles. To address this issue, we now employ a conditional Variational Autoencoder (cVAE), where the cation type is incorporated as a known variable. By conditioning the latent space on this additional information, we aim to achieve a more accurate and physically meaningful representation of the system. 
 
-:::{figure} #app:example_widget
-:name: fig_example_widget
-:placeholder: ./figures/example_widget_placeholder.png
-Example widget.
+Condition 1: Set the conditiona as A and B site atoms of the material
+
+:::{figure} #app:CVAE_widget_1
+:name: fig_CVAE_widget_1
+:placeholder: ./figures/fig_CVAE_widget_1_placeholder.png
+(a) The latent manifold generated from the CVAE demonstrates A site atoms and (b), B site atoms as reconstructed structure across the latent space. (c) The latent space distribution with KDE highlights clusters.
+:::
+
+The two latent spaces shown are for A-type cations and B-type cations, modeled separately using the Conditional Variational Autoencoder (C-VAE). This approach allows us to study each cation type individually and see how they behave in the latent space.
+
+Manifold for A-type cations:
+
+1. This pattern suggests that the variations in the A-type cations are smooth and follow an organized structure, similar to their positions in the crystal lattice.
+
+Manifold for B-type cations:
+
+2. This pattern looks slightly different from the A-type manifold.
+The differences might come from physical changes in the B-type cations, like polarization shifts or small distortions in their positions.
+
+
+:::{figure} #app:CVAE_widget_2
+:name: fig_CVAE_widget_2
+:placeholder: ./figures/fig_CVAE_widget_2_placeholder.png
+latent maps
 :::

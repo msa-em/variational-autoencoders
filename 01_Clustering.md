@@ -19,17 +19,12 @@ valid_subimages: The subset of descriptors that were successfully clustered.
     The Fit_PCA_GMM function applies Principal Component Analysis (PCA) to reduce the dimensionality of the descriptors from high-dimensional space down to 2 principal components (PCs).
 
 
-<!-- :::{figure} #app:Clustering_figure
-:name: fig_clusters_maps
-:placeholder: ./figures/Clustering_figure_placeholder.png
-Clusters and maps.
-::: -->
-
-:::{figure} #app:example_widget_1
-:name: fig_example_widget
-:placeholder: ./figures/example_widget_1_placeholder.png
-Clusters and maps.
+:::{figure} #app:gmm_widget_1
+:name: fig_gmm_widget_1
+:placeholder: ./figures/fig_gmm_widget_1_placeholder.png
+Clustering.
 :::
+
 
 As you can see, the use of the GMM clustering in the original descriptor space (i.e. 1600 dimensional space if the descriptor is 40x40 image patch) gives a pretty good separation of several domain configurations and substrate. The GMM clustering of the data set that was dimensionality reduced by PCA shows additional details - for example, you can see that the domain on the bottom is now split in two parts. Practically, it happens because the STEM imaging is not ideal, and the image suffers from mis-tilt effect (small deviation of the column direction from the beam direction). Npte that this mistilt effect is not visible on the polarization field maps. So we can start asking questions like:
 
@@ -40,11 +35,3 @@ Let’s explore this using the VAE approaches!
 
 
 
-
-
-
-
-
-
-
-eample:
