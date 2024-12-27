@@ -31,3 +31,5 @@ The differences might come from physical changes in the B-type cations, like pol
 :placeholder: ./figures/fig_CVAE_widget_2_placeholder.png
 latent maps
 :::
+
+We observe intriguing new behavior, particularly anomalous variations in $z_1$ at the "diffuse" domain walls. This raises questions about the underlying mechanisms. To further investigate, we propose introducing invariances into the analysis to gain deeper insights.

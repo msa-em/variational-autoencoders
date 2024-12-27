@@ -43,6 +43,7 @@ dependencies:
   - pytorch
   - torchvision
   - torchaudio
+  - seaborn
   - pip:
       - git+https://github.com/pycroscopy/atomai
       - git+https://github.com/ziatdinovmax/pyroVED@main
