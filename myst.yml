@@ -1,33 +1,30 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  id: ferro_vae_tutorial
+  id: msa-em-variational-autoencoders-1
   title: Variational Autoencoder Toolkit
-  description: A minimal repository to be used as quickstart for the Elemental Microscopy journal.
+  description: "TODO: add description. This will appear on journal landing page."
   short_title: VAE Quickstart
   keywords:
     - Microscopy
-    - AMchine Learning
+    - Machine Learning
     - Crystalline Solids
     - Variational Autoencoder
-  github: https://github.com/Kamyar-V2/VAEs
-  #jupyter: true
+  github: https://github.com/msa-em/variational-autoencoders
+  jupyter: true
   #  jupyter:
   #    binder:
   #      url: https://y2j74k9mn0bz.curvenote.dev/services/binder/
-  #      repo: msa-em/change-this-to-repo-name
-  jupyter:
-    server:
-      url: 'http://localhost:8888'
-      token: '512ac78f14e1141db1fac17e8b4099c1e5bc7d589518b38c'
+  #      repo: msa-em/variational-autoencoders
+  #  jupyter:
+  #    server:
+  #      url: 'http://localhost:8888'
+  #      token: '512ac78f14e1141db1fac17e8b4099c1e5bc7d589518b38c'
   open_access: true
   license: CC-BY-4.0
   banner: banner.png
   thumbnail: thumbnail.webp
-  date: 2024-11-27
-  history:
-    submitted: 2023-11-27
-    published: 2024-11-27
+  date: 2025-01-21
   requirements:
     - 'environment.yml'
   resources:
@@ -132,12 +129,7 @@ project:
       name: Ichiro Takeuchi
       email: takeuchi@umd.edu
       orcid: 0000-0003-2625-0553
-      affiliations:
-        - id: UMCP
-          department: Department of Materials Science and Engineering
-          institution: University of Maryland
-          address: College Park, MD 20742
-          ror: 047s2c258
+      affiliations: [UMCP]
       roles:
         - Validation
         - Visualization
@@ -147,12 +139,7 @@ project:
       name: Sergei V. Kalinin
       email: sergei2@utk.edu
       orcid: 0000-0001-5354-6152
-      affiliations:
-        - id: UTK
-          department: Miller Institute for Basic Research in Science
-          institution: University of California, Berkeley
-          address: 468 Donner Lab, Berkeley, CA, USA, 94720
-          ror: 01an7q238
+      affiliations: [UTK]
       roles:
         - Conceptualization
         - Validation
@@ -161,17 +148,6 @@ project:
         - Project administration
         - Supervision
 
-  funding:
-    - statement: We thank the Microscopy Society of America for sponsoring this project.
-      recipients:
-        - cophus
-        - garnavides
-    - statement: Work at the Molecular Foundry was supported by the Office of Science, Office of Basic Energy Sciences, of the U.S. Department of Energy under Contract No. DE-AC02-05CH11231.
-      id: DE-AC02-05CH11231
-      sources:
-        - name: Office of Science, Office of Basic Energy Sciences, of the U.S. Department of Energy
-      recipients:
-        - cophus
   abbreviations:
     4D-STEM: four dimensional scanning transmission electron microscopy
     FFT: fast Fourier transform
