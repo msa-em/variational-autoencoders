@@ -21,7 +21,7 @@ valid_subimages: The subset of descriptors that were successfully clustered.
 
 :::{figure} #app:gmm_widget_1_new
 :name: fig_gmm_widget_1
-:placeholder: ./figures/fig_gmm_widget_1_placeholder.png
+:placeholder: ./figures/clustering_placeholder.png
 clusters.
 :::
 
