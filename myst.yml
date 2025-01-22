@@ -53,7 +53,6 @@ project:
         - Software
         - Validation
         - Writing - original draft
-
     - id: Cnelson
       name: Chris Nelson
       email: nelsonct@ornl.gov
@@ -67,7 +66,6 @@ project:
       roles:
         - Validation
         - Visualization
-
     - id: Annam
       name: Anna N. Morozovska
       email: anna.n.morozovska@gmail.com
@@ -81,7 +79,6 @@ project:
       roles:
         - Validation
         - Visualization
-
     - id: MaxA
       name: Maxim A. Ziatdinov
       email: maxim.ziatdinov@pnnl.gov
@@ -95,7 +92,6 @@ project:
       roles:
         - Validation
         - Visualization
-
     - id: EAE
       name: Eugene A. Eliseev
       email: eugene.a.eliseev@gmail.com
@@ -109,12 +105,10 @@ project:
       roles:
         - Validation
         - Visualization
-
-
     - id: XIZ
       name: Xiaohang Zhang
       email: xhzhang@umd.edu
-      orcid: 
+      orcid: 0000-0001-5395-0235
       affiliations:
         - id: UMCP
           department: Department of Materials Science and Engineering
@@ -124,7 +118,6 @@ project:
       roles:
         - Validation
         - Visualization
-
     - id: ITA
       name: Ichiro Takeuchi
       email: takeuchi@umd.edu
@@ -133,8 +126,6 @@ project:
       roles:
         - Validation
         - Visualization
-
-
     - id: svk
       name: Sergei V. Kalinin
       email: sergei2@utk.edu
@@ -147,7 +138,6 @@ project:
         - Funding acquisition
         - Project administration
         - Supervision
-
   abbreviations:
     4D-STEM: four dimensional scanning transmission electron microscopy
     FFT: fast Fourier transform
