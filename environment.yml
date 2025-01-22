@@ -16,10 +16,10 @@ dependencies:
   - torchvision
   - torchaudio
   - seaborn
-  - wget
   - pip
   - pip:
-      - git+https://github.com/pycroscopy/atomai
-      - git+https://github.com/ziatdinovmax/pyroVED@main
+    - wget
+    - git+https://github.com/pycroscopy/atomai
+    - git+https://github.com/ziatdinovmax/pyroVED@main
 
 
