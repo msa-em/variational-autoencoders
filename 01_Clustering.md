@@ -1,5 +1,5 @@
 ---
-title: Clustering 1
+title: Clustering
 ---
 
 We’re applying clustering to the descriptors extracted from subimages to group similar structural features and then visualizing the clusters to better understand the patterns in the data.
