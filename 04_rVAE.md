@@ -10,7 +10,7 @@ When implementing the rVAE with a 2D latent space, the system effectively utiliz
 
 :::{figure} #app:rVAE_widget_1
 :name: fig_rVAE_widget_1
-:placeholder: ./figures/fig_rVAE_widget_1_placeholder.png
+:placeholder: ./figures/rVAE_manifold_placeholder.png
 (a) The latent manifold generated from the VAE demonstrates the reconstructed structure across the latent space. (b), (c), and (d) The latent space distribution with KDE highlights clusters, .
 :::
 
@@ -19,7 +19,7 @@ The clusters in latent space become more separated. These clearly correspond to 
 
 :::{figure} #app:rVAE_widget_2
 :name: fig_rVAE_widget_2
-:placeholder: ./figures/fig_rVAE_widget_2_placeholder.png
+:placeholder: ./figures/rVAE_latent_placeholder.png
 Latent_maps.
 :::
 
