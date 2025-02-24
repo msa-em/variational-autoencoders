@@ -19,7 +19,7 @@ valid_subimages: The subset of descriptors that were successfully clustered.
     The Fit_PCA_GMM function applies Principal Component Analysis (PCA) to reduce the dimensionality of the descriptors from high-dimensional space down to 2 principal components (PCs).
 
 
-:::{figure} #app:gmm_widget_1_updated
+:::{figure} #app:gmm_widget_1_new
 :name: fig_gmm_widget_1
 :placeholder: ./figures/clustering_placeholder.png
 clusters.
