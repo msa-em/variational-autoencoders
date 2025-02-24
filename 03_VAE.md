@@ -7,7 +7,7 @@ Note that VAEs will yield latent vectors and (optionally) translation vector and
 
 
 :::{figure} #app:VAE_manifold_1
-:name: VAE_manifold_1
+:name: fig_VAE_widget_1
 :placeholder: ./figures/VAE_manifolds_placeholder.png
 (a) The latent manifold generated from the VAE demonstrates the reconstructed structure across the latent space. (b) The latent space distribution with KDE highlights clusters, .
 :::
@@ -17,7 +17,7 @@ The latent representation of the system is visualized as a grid over the two lat
 The latent space distribution of the system reveals several distinct clusters. These clusters correspond to key factors of variation, including column type (primary variation factor), ferroelectric domain orientation, and the nature of the material (BFO vs. substrate). Notably, all these variations are effectively represented within just two latent variables $z_1$ and $z_2$.
 
 :::{figure} #app:Latent_maps_2
-:name: Latent_maps_2
+:name: fig_VAE_widget_2
 :placeholder: ./figures/VAE_latent_maps_placeholder.png
 Latent_maps.
 :::
