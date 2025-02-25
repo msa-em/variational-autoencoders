@@ -3,12 +3,11 @@ title: Conditional Translationally Invariant VAE
 ---
 
 
-
 In this chapter, we introduce the conditional translational Variational Autoencoder (CtVAE), which incorporates translational vectors ($t_x$, $t_y$) and conditional variables, such as cation type, into the latent space. The CtVAE captures positional shifts alongside intrinsic variations, enabling the analysis of system-specific physical properties. This framework provides a structured approach to studying translation-related phenomena while maintaining the distinct physical and chemical characteristics of the components.
 
 :::{figure} #app:CtVAE_manifold_1
 :name: CtVAE_manifold_1
-:placeholder: ./figures/CtVAE_manifold_placeholder.png
+:placeholder: ./figures/CtVAE_manifolds_placeholder.png
 (a) The latent manifold generated from the CrVAE demonstrates A and B site atoms reconstructed structure across the latent space. (b) The latent space distribution with KDE highlights clusters.
 :::
 
