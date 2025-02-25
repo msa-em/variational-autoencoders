@@ -15,7 +15,7 @@ We observe well-defined clusters, which strongly suggest the presence of underly
 
 :::{figure} #app:tVAE_latent_1
 :name: tVAE_latent_1
-:placeholder: ./figures/figures/tVAE_latent_placeholder.png
+:placeholder: ./figures/tVAE_latent_placeholder.png
 latent maps.
 :::
 
