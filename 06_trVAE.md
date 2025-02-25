@@ -4,10 +4,10 @@ title: Translationally and Rotationally Invariant VAE
 
 In this section, we incorporate all invariances—both translational and rotational—within the VAE framework. 
 
-:::{figure} #app:trVAE_widget_1
-:name: fig_trVAE_widget_1
-:placeholder: ./figures/fig_trVAE_widget_1_placeholder.png
-(a) The latent manifold generated from the VAE demonstrates the reconstructed structure across the latent space. (b), (c), (d), (d), (f), (g), (h), (i), (j), and (k) The latent space distribution with KDE highlights clusters.
+:::{figure} #app:trVAE_manifold_1
+:name: trVAE_manifold_1
+:placeholder: ./figures/trVAE_manifold_placeholder.png
+(a) The latent manifold generated from the trVAE demonstrates the reconstructed structure across the latent space. (b)The latent space distribution with KDE highlights clusters.
 :::
 
 The observed well-defined clusters strongly suggest the presence of underlying physical principles governing the system. These clusters likely correspond to distinct physical or structural features such as:
@@ -17,9 +17,9 @@ The observed well-defined clusters strongly suggest the presence of underlying p
 3. Manifestation of lattice distortions or domain wall structures that produce spatial correlations in the data.
 
 
-:::{figure} #app:trVAE_widget_2
-:name: fig_trVAE_widget_2
-:placeholder: ./figures/fig_trVAE_widget_2_placeholder.png
+:::{figure} #app:trVAE_latent_1
+:name: trVAE_latent_1
+:placeholder: ./figures/trVAE_latent_placeholder.png
 latent maps.
 :::
 

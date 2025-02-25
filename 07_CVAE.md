@@ -8,10 +8,10 @@ However, the previous analysis presented a significant limitation: it assumed a 
 
 Condition 1: Set the conditiona as A and B site atoms of the material
 
-:::{figure} #app:CVAE_widget_1
-:name: fig_CVAE_widget_1
-:placeholder: ./figures/fig_CVAE_widget_1_placeholder.png
-(a) The latent manifold generated from the CVAE demonstrates A site atoms and (b), B site atoms as reconstructed structure across the latent space. (c) The latent space distribution with KDE highlights clusters.
+:::{figure} #app:CVAE_manifold_1
+:name: CVAE_manifold_1
+:placeholder: ./figures/CVAE_manifolds_placeholder.png
+(a) The latent manifold generated from the CVAE demonstrates A and B site atoms reconstructed structure across the latent space. (b) The latent space distribution with KDE highlights clusters.
 :::
 
 The two latent spaces shown are for A-type cations and B-type cations, modeled separately using the Conditional Variational Autoencoder (C-VAE). This approach allows us to study each cation type individually and see how they behave in the latent space.
@@ -26,9 +26,9 @@ Manifold for B-type cations:
 The differences might come from physical changes in the B-type cations, like polarization shifts or small distortions in their positions.
 
 
-:::{figure} #app:CVAE_widget_2
-:name: fig_CVAE_widget_2
-:placeholder: ./figures/fig_CVAE_widget_2_placeholder.png
+:::{figure} #app:CVAE_latent_1
+:name: CVAE_latent_1
+:placeholder: ./figures/CVAE_latent_placeholder.png
 latent maps
 :::
 
