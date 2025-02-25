@@ -14,6 +14,7 @@ Condition 1: Set the conditiona as A and B site atoms of the material
 (a) The latent manifold generated from the CrVAE demonstrates A and B site atoms reconstructed structure across the latent space. (b) The latent space distribution with KDE highlights clusters.
 :::
 
+
 The two latent spaces shown are for A-type cations and B-type cations, modeled separately using the Conditional Variational Autoencoder (C-VAE). This approach allows us to study each cation type individually and see how they behave in the latent space.
 
 Manifold for A-type cations:
