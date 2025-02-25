@@ -7,7 +7,7 @@ In this approach, the latent space is composed of the intrinsic latent variables
 :::{figure} #app:tVAE_manifold_1
 :name: tVAE_manifold_1
 :placeholder: ./figures/tvae_manifold_placeholder.png
-(a) The latent manifold generated from the VAE demonstrates the reconstructed structure across the latent space. (b) The latent space distribution with KDE highlights clusters.
+(a) The latent manifold generated from the ttVAE demonstrates the reconstructed structure across the latent space. (b) The latent space distribution with KDE highlights clusters.
 :::
 
 We observe well-defined clusters, which strongly suggest the presence of underlying physical principles governing the system.

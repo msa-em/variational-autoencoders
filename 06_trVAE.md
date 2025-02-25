@@ -7,7 +7,7 @@ In this section, we incorporate all invariances—both translational and rotatio
 :::{figure} #app:trVAE_manifold_1
 :name: trVAE_manifold_1
 :placeholder: ./figures/trVAE_manifold_placeholder.png
-(a) The latent manifold generated from the VAE demonstrates the reconstructed structure across the latent space. (b)The latent space distribution with KDE highlights clusters.
+(a) The latent manifold generated from the trVAE demonstrates the reconstructed structure across the latent space. (b)The latent space distribution with KDE highlights clusters.
 :::
 
 The observed well-defined clusters strongly suggest the presence of underlying physical principles governing the system. These clusters likely correspond to distinct physical or structural features such as:

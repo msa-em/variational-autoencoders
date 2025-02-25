@@ -8,7 +8,7 @@ The conditional translational Variational Autoencoder (CtrVAE) combines translat
 :::{figure} #app:CtrVAE_manifold_1
 :name: CtrVAE_manifold_1
 :placeholder: ./figures/Ctrvae_manifolds_placeholder.png
-(a) The latent manifold generated from the CrVAE demonstrates A and B site atoms reconstructed structure across the latent space. (b) The latent space distribution with KDE highlights clusters.
+(a) The latent manifold generated from the CtrVAE demonstrates A and B site atoms reconstructed structure across the latent space. (b) The latent space distribution with KDE highlights clusters.
 :::
 
 

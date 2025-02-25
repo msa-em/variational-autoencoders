@@ -20,4 +20,5 @@ The clear separations and clustering in the latent space reflect the incorporati
 latent maps
 :::
 
+
 The analysis reveals that domain walls, with distinct rotational orientations, are strongly influenced by both unit cell rotation and the conditional variable representing cation type. This highlights the CrVAE's ability to incorporate external physical constraints to uncover meaningful relationships within the data.

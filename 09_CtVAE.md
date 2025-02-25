@@ -7,8 +7,8 @@ In this chapter, we introduce the conditional translational Variational Autoenco
 
 :::{figure} #app:CtVAE_manifold_1
 :name: CtVAE_manifold_1
-:placeholder: ./figures/CtVAE_manifolds_placeholder.png
-(a) The latent manifold generated from the CrVAE demonstrates A and B site atoms reconstructed structure across the latent space. (b) The latent space distribution with KDE highlights clusters.
+:placeholder: ./figures/Ctvae_manifolds_placeholder.png
+(a) The latent manifold generated from the CtVAE demonstrates A and B site atoms reconstructed structure across the latent space. (b) The latent space distribution with KDE highlights clusters.
 :::
 
 The clear separations and clustering in the latent space reflect the incorporation of physical constraints and rotational invariances.ß
