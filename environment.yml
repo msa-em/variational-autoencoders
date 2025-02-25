@@ -17,6 +17,7 @@ dependencies:
   - torchaudio
   - seaborn
   - pip
+  - gdown
   - pip:
     - wget
     - git+https://github.com/pycroscopy/atomai
