@@ -17,9 +17,9 @@ dependencies:
   - torchaudio
   - seaborn
   - pip
-  - gdown
   - pip:
     - wget
+    - gdown
     - git+https://github.com/pycroscopy/atomai
     - git+https://github.com/ziatdinovmax/pyroVED@main
 
