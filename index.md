@@ -15,7 +15,7 @@ Variational Autoencoders (VAEs) provide a robust framework for extracting latent
 +++{"part":"epigraph"}
 :::{warning} Pre-print
 This article has not yet been peer-reviewed.  
-_Updated 2024 November 27_
+_Updated 2025 March 17_
 :::
 
 +++
