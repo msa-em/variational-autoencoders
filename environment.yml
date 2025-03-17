@@ -19,6 +19,7 @@ dependencies:
   - pip
   - pip:
     - wget
+    - gdown
     - git+https://github.com/pycroscopy/atomai
     - git+https://github.com/ziatdinovmax/pyroVED@main
 

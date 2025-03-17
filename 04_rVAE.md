@@ -7,19 +7,18 @@ Unlike a standard VAE, the rVAE decomposes the latent representation into two co
 When implementing the rVAE with a 2D latent space, the system effectively utilizes three latent variables: two variables for the regular latent space and one additional variable to encode the rotational orientation. This decomposition introduces a clear physical meaning to part of the latent representation, specifically the rotational degree of freedom, bridging the gap between the statistical encoding and the underlying physics of the system.
 
 
-
-:::{figure} #app:rVAE_widget_1
-:name: fig_rVAE_widget_1
-:placeholder: ./figures/fig_rVAE_widget_1_placeholder.png
-(a) The latent manifold generated from the VAE demonstrates the reconstructed structure across the latent space. (b), (c), and (d) The latent space distribution with KDE highlights clusters, .
+:::{figure} #app:rVAE_manifold_1
+:name: rVAE_manifold_1
+:placeholder: ./figures/rVAE_manifold_placeholder.png
+(a) The latent manifold generated from the rVAE demonstrates the reconstructed structure across the latent space. (b)The latent space distribution with KDE highlights clusters, .
 :::
 
 The clusters in latent space become more separated. These clearly correspond to the A- and B type cations now.
 
 
-:::{figure} #app:rVAE_widget_2
-:name: fig_rVAE_widget_2
-:placeholder: ./figures/fig_rVAE_widget_2_placeholder.png
+:::{figure} #app:rVAE_latent_1
+:name: rVAE_latent_1
+:placeholder: ./figures/rVAE_latent_placeholder.png
 Latent_maps.
 :::
 
