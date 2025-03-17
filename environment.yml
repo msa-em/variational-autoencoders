@@ -13,13 +13,15 @@ dependencies:
   - jupyterlab-myst
   - 'nodejs>=20,<21'
   - mystmd
-  - torchvision
-  - torchaudio
   - seaborn
   - pip
   - pip:
+    - --extra-index-url https://download.pytorch.org/whl/cpu
     - wget
     - gdown
+    - torch
+    - torchvision
+    - torchaudio
     - git+https://github.com/pycroscopy/atomai
     - git+https://github.com/ziatdinovmax/pyroVED@main
 
