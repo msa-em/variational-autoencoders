@@ -3,7 +3,7 @@ version: 1
 project:
   id: msa-em-variational-autoencoders-1
   title: Variational Autoencoder Toolkit
-  description: "TODO: add description. This will appear on journal landing page."
+  description: "A practical framework using variational autoencoders to analyze STEM data and uncover subtle structural features such as domain wall types, mis-tilts, and chemical variations in complex materials."
   short_title: VAE Quickstart
   keywords:
     - Microscopy
@@ -145,5 +145,21 @@ project:
     HRTEM: high resolution transmission electron microscopy
     M&M: Microscopy and Microanalysis
     STEM: scanning transmission electron microscopy
+    VAE: conventional variational autoencoder
+    rVAE: rotationally invariant variational autoencoder
+    tVAE: translational invariant variational autoencoder
+    trVAE: translational and rotationally invariant variational autoencoder
+    C-VAE: conditional variational autoencoder 
+    C-rVAE: conditional rotationally invariant variational autoencoder
+    C-tVAE: conditional translationally invariant variational autoencoder
+    C-trVAE: conditional rotationally and translationally invariant variational autoencoder
+    GMM: Gaussian mixture model
+    PCA: principal coponent analysis
+    PC: principal component
+    BFO: Bismuth Ferrite
+
+
+
+
 site:
   template: book-theme
