@@ -10,7 +10,7 @@ When implementing the rVAE with a 2D latent space, the system effectively utiliz
 :::{figure} #app:rVAE_manifold_1
 :name: rVAE_manifold_1
 :placeholder: ./figures/rVAE_manifold_placeholder.png
-(a) The latent manifold generated from the rVAE demonstrates the reconstructed structure across the latent space. (b)The latent space distribution with KDE highlights clusters, .
+(a) The latent manifold generated from the rVAE demonstrates the reconstructed structure across the latent space. (b)The latent space distribution with KDE highlights clusters.
 :::
 
 The clusters in latent space become more separated. These clearly correspond to the A- and B type cations now.
@@ -19,7 +19,7 @@ The clusters in latent space become more separated. These clearly correspond to 
 :::{figure} #app:rVAE_latent_1
 :name: rVAE_latent_1
 :placeholder: ./figures/rVAE_latent_placeholder.png
-**TO-DO:** please add descriptive figure caption here.
+Latent maps generated from the rVAE.
 :::
 
 We now observe promising and insightful results: the domain walls are clearly associated with the rotation of the unit cells. Notably, the analysis reveals both positive and negative domain walls, highlighting distinct rotational orientations across the structure. This outcome demonstrates the capability of the rotationally invariant VAE to uncover physically meaningful relationships within the data. 

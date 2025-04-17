@@ -17,7 +17,7 @@ The clear separations and clustering in the latent space reflect the incorporati
 :::{figure} #app:CrVAE_latent_1
 :name: CrVAE_latent_1
 :placeholder: ./figures/crvae_latent_placeholder.png
-**TO-DO:** please add descriptive figure caption here.
+Latent maps generated from the CrVAE.
 :::
 
 

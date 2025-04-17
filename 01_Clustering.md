@@ -22,8 +22,7 @@ The impact of varying hyperparameters such as patch size, number of clusters, or
 :name: fig_gmm_widget_1
 :placeholder: ./figures/clustering_placeholder.png
 
-**TO-DO:** please add descriptive figure caption here.
-
+Effect of hyperparameters on GMM and PCA clusters.
 :::
 
 These results underscore the importance of combining physically meaningful representations with unsupervised machine learning techniques in microscopy. By exploring the effect of hyperparameters and dimensionality reduction strategies, it becomes possible to tune the clustering process for optimal sensitivity and interpretability. This process raises broader questions central to data-driven materials science:

@@ -16,7 +16,7 @@ We observe well-defined clusters, which strongly suggest the presence of underly
 :::{figure} #app:tVAE_latent_1
 :name: tVAE_latent_1
 :placeholder: ./figures/tVAE_latent_placeholder.png
-**TO-DO:** please add descriptive figure caption here.
+Latent maps generated from the tVAE.
 :::
 
 The latent maps reveal fascinating insights. The translation vectors closely resemble the polarization components, aligning with the underlying physics of ferroelectrics, where the polarization arises from the shift of the central atom relative to the corner atoms. Simultaneously, the intrinsic latent variables $z_1$, and $z_2$ exhibit chemical contrast and mistilt effects, with minor leakage of polarization information into their representation.
