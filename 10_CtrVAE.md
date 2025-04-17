@@ -18,7 +18,7 @@ The distinct separations and well-defined clusters across all combinations of la
 :::{figure} #app:CtrVAE_latent_1
 :name: CtrVAE_latent_1
 :placeholder: ./figures/Ctrvae_latent_placeholder.png
-latent maps
+**TO-DO:** please add descriptive figure caption here.
 :::
 
 The analysis suggests a potential redundancy in the latent space, as the information encoded in $z_2$ appears to overlap significantly with the angular variable. This overlap indicates that the latent representation may contain more variables than necessary to effectively describe the system, highlighting the need for further optimization or dimensionality reduction to enhance interpretability and efficiency.
