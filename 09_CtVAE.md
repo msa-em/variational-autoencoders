@@ -17,7 +17,7 @@ The clear separations and clustering in the latent space reflect the incorporati
 :::{figure} #app:CtVAE_latent_1
 :name: CtVAE_latent_1
 :placeholder: ./figures/CtVAE_latent_placeholder.png
-latent maps
+Latent maps generated from the CtVAE.
 :::
 
 Both $z_1$, $z_2$, and $t_x$, $t_xy$ appear to capture information about the domain structures. However, this raises the question: are we utilizing an excessive number of latent variables to represent the system?
