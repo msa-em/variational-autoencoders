@@ -24,7 +24,7 @@ project:
   license: CC-BY-4.0
   banner: banner.png
   thumbnail: thumbnail.webp
-  date: 2025-01-21
+  date: 2025-04-17
   requirements:
     - 'environment.yml'
   resources:
@@ -157,9 +157,6 @@ project:
     PCA: principal coponent analysis
     PC: principal component
     BFO: Bismuth Ferrite
-
-
-
 
 site:
   template: book-theme
