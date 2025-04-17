@@ -20,7 +20,7 @@ The observed well-defined clusters strongly suggest the presence of underlying p
 :::{figure} #app:trVAE_latent_1
 :name: trVAE_latent_1
 :placeholder: ./figures/trVAE_latent_placeholder.png
-latent maps.
+**TO-DO:** please add descriptive figure caption here.
 :::
 
 The $z_2$ map now clearly reveals chemical and mistilt effects, while the translational components, $t_x$ and $t_y$, exhibit a pattern consistent with the polarization components. Furthermore, the angle variable captures the rotational aspect of the polarization.
