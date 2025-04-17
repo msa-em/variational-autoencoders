@@ -19,7 +19,9 @@ The latent space distribution of the system reveals several distinct clusters. T
 :::{figure} #app:Latent_maps_2
 :name: fig_VAE_widget_2
 :placeholder: ./figures/VAE_latent_maps_placeholder.png
-Latent_maps.
+
+**TO-DO:** please add descriptive figure caption here.
+
 :::
 
 The VAE analysis highlights ferroelectric domains as regions with distinct contrast levels in the latent variables $z_1$ and $z_2$. The latent variable $z_1$ clearly differentiates between the substrate and the material, while $z_2$ exhibits a gradient effect on the right-hand side of the image, indicative of a mistilt effect. Additionally, the ground truth polarization components $P_x$ and $P_y$ are shown for reference.
