@@ -19,7 +19,7 @@ The clusters in latent space become more separated. These clearly correspond to 
 :::{figure} #app:rVAE_latent_1
 :name: rVAE_latent_1
 :placeholder: ./figures/rVAE_latent_placeholder.png
-Latent_maps.
+**TO-DO:** please add descriptive figure caption here.
 :::
 
 We now observe promising and insightful results: the domain walls are clearly associated with the rotation of the unit cells. Notably, the analysis reveals both positive and negative domain walls, highlighting distinct rotational orientations across the structure. This outcome demonstrates the capability of the rotationally invariant VAE to uncover physically meaningful relationships within the data. 
