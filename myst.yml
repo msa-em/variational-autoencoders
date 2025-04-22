@@ -1,9 +1,10 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
+  doi: 10.69761/udpm2547
   id: msa-em-variational-autoencoders-1
   title: Variational Autoencoder Toolkit
-  description: "A practical framework using variational autoencoders to analyze STEM data and uncover subtle structural features such as domain wall types, mis-tilts, and chemical variations in complex materials."
+  description: 'A practical framework using variational autoencoders to analyze STEM data and uncover subtle structural features such as domain wall types, mis-tilts, and chemical variations in complex materials.'
   short_title: VAE Quickstart
   keywords:
     - Microscopy
@@ -12,10 +13,10 @@ project:
     - Variational Autoencoder
   github: https://github.com/msa-em/variational-autoencoders
   jupyter: true
-#  jupyter:
-#    server:
-#      url: 'http://localhost:8888'
-#      token: '512ac78f14e1141db1fac17e8b4099c1e5bc7d589518b38c'
+  #  jupyter:
+  #    server:
+  #      url: 'http://localhost:8888'
+  #      token: '512ac78f14e1141db1fac17e8b4099c1e5bc7d589518b38c'
   open_access: true
   license: CC-BY-4.0
   banner: banner.png
@@ -39,7 +40,7 @@ project:
       orcid: 0000-0003-3487-6652
       affiliations:
         - id: UTK
-          department: Department of Materials Science and Engineering, 
+          department: Department of Materials Science and Engineering,
           institution: University of Tennessee
           address: Knoxville, TN 37996
           ror: 020f3ap87
@@ -55,7 +56,7 @@ project:
       orcid: 0000-0001-7892-8907
       affiliations:
         - id: ORNL
-          department: Center for Nanophase Materials Sciences 
+          department: Center for Nanophase Materials Sciences
           institution: Oak Ridge National Laboratory
           address: Oak Ridge, TN 37831
           ror: 0526p1y61
@@ -68,7 +69,7 @@ project:
       orcid: 0000-0002-8505-458X
       affiliations:
         - id: UKraineNA
-          department:  Institute of Physics
+          department: Institute of Physics
           institution: National Academy of Sciences of Ukraine
           address: 46, pr. Nauky, 03028 Kyiv, Ukraine
           ror: 00je4t102
@@ -134,6 +135,10 @@ project:
         - Funding acquisition
         - Project administration
         - Supervision
+  venue:
+    title: Elemental Microscopy
+    short_title: EM
+    doi: 10.69761/EM
   abbreviations:
     4D-STEM: four dimensional scanning transmission electron microscopy
     FFT: fast Fourier transform
@@ -145,7 +150,7 @@ project:
     rVAE: rotationally invariant variational autoencoder
     tVAE: translational invariant variational autoencoder
     trVAE: translational and rotationally invariant variational autoencoder
-    C-VAE: conditional variational autoencoder 
+    C-VAE: conditional variational autoencoder
     C-rVAE: conditional rotationally invariant variational autoencoder
     C-tVAE: conditional translationally invariant variational autoencoder
     C-trVAE: conditional rotationally and translationally invariant variational autoencoder
